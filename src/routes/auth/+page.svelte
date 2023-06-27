@@ -6,6 +6,9 @@
 		password = '';
 </script>
 
+<svelte:head>
+	<title>Sign In</title>
+</svelte:head>
 <div class="d-flex gap-2">
 	<div class="auth-container">
 		<div class="box">
@@ -21,7 +24,7 @@
 					</button>
 				</div>
 
-				<span>Don't have account yet? <a href="">Register!</a></span>
+				<span>Don't have account yet? <a href="./home">Register!</a></span>
 			</div>
 		</div>
 	</div>
